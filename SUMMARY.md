@@ -8,7 +8,7 @@
   - [新增微服务仓库及打包](po/init-project.md)
   - [反串讲和阶段目标制定](po/enable-internet-via-proxy.md)
   - [代码调试篇](po/debug-code.md)
-  - [代码提交篇](po/merge-code.md)
+  - [代码提交篇](po/first.md)
   - [代码检视篇](po/review-code.md)
   
 * [编码规范 与 IDE配置](code/code.md)
