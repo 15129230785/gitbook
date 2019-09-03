@@ -3,7 +3,7 @@
 
 ### 我的博客
 
-- Bulleted
+- gitbook build . ./docs
 - List
 
 1. Numbered
