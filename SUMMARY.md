@@ -13,7 +13,6 @@
   
 * [编码规范 与 IDE配置](code/code.md)
 
-  
   - [配置我的Eclipse](code/eclipse.md)
   
   - [配置我的IntelliJ IDEA](code/idea.md)
