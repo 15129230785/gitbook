@@ -1,0 +1,44 @@
+{
+  "project_path": "j00274063/mae",
+	"title": "U2020Web化高端合作项目条例",
+	"language": "zh-hans",
+	"styles":{
+		"website":"styles/website.css"
+	},
+	"links" : {
+		"sidebar" : {
+			"传送门" : "http://www.baidu.com"
+		}
+	},
+	"plugins": [
+      "comment",
+	  "custom-favicon",
+	  "insert-logo",
+	  "back-to-top-button",
+	  "chapter-fold",
+	  "splitter",
+	  "hide-element",
+	  "advanced-emoji",
+	  "popup",
+		"local-video",
+		"url-embed",
+	  "flexible-alerts",
+	  "emphasize",
+	  "copy-code-button",
+	  "pageview-count"
+  ],
+  "pluginsConfig": {
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+		"favicon": "./img/favicon.ico",
+		"insert-logo": {
+			"url": "../img/logo-in-header.png",
+			"style": "background: none; max-height: 30px; min-height: 30px"
+		},
+	  "theme-default": {
+		  "showLevel": true
+	  },
+	  "chapter-fold": {}
+    }
+}
