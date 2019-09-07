@@ -17,7 +17,7 @@
 ../assets/media/02postman.html
 {% endurlembed %}
 
-### 二、 本地F5调试PMWebsite前端React
+### 二、 本地调试Website前端React
 
 >   下面的例子是性能服务[PMWebsite](www.baidu.com)
 
@@ -34,10 +34,9 @@ mvn clean install -Dmaven.test.skip=true
   ```javascript
  document.cookie = 'localLanguage=zh_CN;';
  document.cookie = 'locale=en-us;';
- document.cookie =
-     'bspsession=x-6ns7g7k5by89umamqoandi1fft895fbvg8g784hfjs852kdc0bbt7wirqp3z45jv1gmo9fhdtecbk7mpuo6lfurzrwdifs6q5dqlvtqmvz2qikmnlihibyg9in3zg99f';
+ document.cookie = 'bspsession=xxxxx';
  document.cookie = 'user_time_a_lang=';
- document.cookie = 'roarand=543105708f91669c95d875463444110e42faa09b9a289c4c;';
+ document.cookie = 'roarand=xxxxxx;';
   
   ```
 
@@ -52,7 +51,7 @@ npm run start
  
  
 {% urlembed %}
-../assets/media/03ereact.html
+../assets/media/03react.html
 {% endurlembed %}
 
 

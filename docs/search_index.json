@@ -1,1 +1,3703 @@
-{"index":{"version":"0.5.12","fields":[{"name":"title","boost":10},{"name":"keywords","boost":15},{"name":"body","boost":1}],"ref":"url","documentStore":{"store":{"./":["bold","bullet","code","github","introduct","ital","list","number","page","text","welcom","我的博客"]},"length":1},"tokenStore":{"root":{"docs":{},"b":{"docs":{},"o":{"docs":{},"l":{"docs":{},"d":{"docs":{"./":{"ref":"./","tf":0.08333333333333333}}}}},"u":{"docs":{},"l":{"docs":{},"l":{"docs":{},"e":{"docs":{},"t":{"docs":{"./":{"ref":"./","tf":0.08333333333333333}}}}}}}},"c":{"docs":{},"o":{"docs":{},"d":{"docs":{},"e":{"docs":{"./":{"ref":"./","tf":0.08333333333333333}}}}}},"g":{"docs":{},"i":{"docs":{},"t":{"docs":{},"h":{"docs":{},"u":{"docs":{},"b":{"docs":{"./":{"ref":"./","tf":0.08333333333333333}}}}}}}},"i":{"docs":{},"n":{"docs":{},"t":{"docs":{},"r":{"docs":{},"o":{"docs":{},"d":{"docs":{},"u":{"docs":{},"c":{"docs":{},"t":{"docs":{"./":{"ref":"./","tf":10}}}}}}}}}},"t":{"docs":{},"a":{"docs":{},"l":{"docs":{"./":{"ref":"./","tf":0.08333333333333333}}}}}},"l":{"docs":{},"i":{"docs":{},"s":{"docs":{},"t":{"docs":{"./":{"ref":"./","tf":0.16666666666666666}}}}}},"n":{"docs":{},"u":{"docs":{},"m":{"docs":{},"b":{"docs":{},"e":{"docs":{},"r":{"docs":{"./":{"ref":"./","tf":0.08333333333333333}}}}}}}},"p":{"docs":{},"a":{"docs":{},"g":{"docs":{},"e":{"docs":{"./":{"ref":"./","tf":0.08333333333333333}}}}}},"t":{"docs":{},"e":{"docs":{},"x":{"docs":{},"t":{"docs":{"./":{"ref":"./","tf":0.08333333333333333}}}}}},"w":{"docs":{},"e":{"docs":{},"l":{"docs":{},"c":{"docs":{},"o":{"docs":{},"m":{"docs":{"./":{"ref":"./","tf":0.08333333333333333}}}}}}}},"我":{"docs":{},"的":{"docs":{},"博":{"docs":{},"客":{"docs":{"./":{"ref":"./","tf":0.08333333333333333}}}}}}},"length":12},"corpusTokens":["bold","bullet","code","github","introduct","ital","list","number","page","text","welcom","我的博客"],"pipeline":["stopWordFilter","stemmer"]},"store":{"./":{"url":"./","title":"Introduction","keywords":"","body":"Welcome to GitHub Pages\n我的博客\n\nBulleted\nList\n\nNumbered\n\nList\n\nBold and Italic and Code text\n"}}}
+{
+  "index": {
+    "version": "0.5.12",
+    "fields": [
+      {
+        "name": "title",
+        "boost": 10
+      },
+      {
+        "name": "keywords",
+        "boost": 15
+      },
+      {
+        "name": "body",
+        "boost": 1
+      }
+    ],
+    "ref": "url",
+    "documentStore": {
+      "store": {
+        "./": [
+          "\"img\"",
+          "&&",
+          ".",
+          "./doc",
+          "=",
+          "===",
+          "bold",
+          "build",
+          "code",
+          "console.log(\"plugin",
+          "e.target.tagnam",
+          "function(e){",
+          "gitbook",
+          "github",
+          "ital",
+          "list",
+          "number",
+          "page",
+          "popup....\");document.onclick",
+          "text",
+          "welcom",
+          "window.open(e.target.src,e.target.src)}img{cursor:pointer}",
+          "个人笔记指南",
+          "我的博客"
+        ],
+        "po/debugcode.html": [
+          "\"img\"",
+          "&&",
+          "'bspsession=xxxxx';",
+          "'locale=en",
+          "'locallanguage=zh_cn;';",
+          "'roarand=xxxxxx;';",
+          "'user_time_a_lang=';",
+          ":",
+          "=",
+          "===",
+          "application/json",
+          "bspsession",
+          "clean",
+          "clien/coohjcphdfgbiolnekdpbcijmhambjff",
+          "console.log(\"plugin",
+          "content",
+          "cooki",
+          "dmaven.test.skip=tru",
+          "dmaven.test.skip=true，下载好前端的依赖node_modul",
+          "document.cooki",
+          "e.target.tagnam",
+          "function(e){",
+          "https://chrome.google.com/webstore/detail/tab",
+          "instal",
+          "mvn",
+          "npm",
+          "package.json",
+          "popup....\");document.onclick",
+          "postman",
+          "rest",
+          "rest接口",
+          "roarand",
+          "run",
+          "start",
+          "type",
+          "us;';",
+          "window.open(e.target.src,e.target.src)}img{cursor:pointer}",
+          "一、",
+          "下面的例子是性能服务pmwebsit",
+          "中的proxy为环境ip",
+          "二、",
+          "从环境的某个请求上拷贝过来",
+          "从环境的某个请求上拷贝过来，不带locale=",
+          "代码调试篇",
+          "使用postman调试java",
+          "修改",
+          "先登录u2020环境，填充测试url，在请求头",
+          "加三个键值对",
+          "加本地cooki",
+          "发送，查看响应体是否正确：",
+          "在chrome商店安装postman",
+          "填充请求体，",
+          "对request.j",
+          "怎么调试代码",
+          "替换cookie中的",
+          "本地调试website前端react",
+          "根目录执行"
+        ],
+        "po/first.html": [
+          "\"img\"",
+          "#",
+          "&&",
+          "=",
+          "===",
+          "[!warning|style:flat]",
+          "b",
+          "cd",
+          "checkout",
+          "clone",
+          "committer合入",
+          "console.log(\"plugin",
+          "develop_工号",
+          "develop自动合主干有时会失效，服务owner每次出版本前一定要对比两个分支无差异。",
+          "e.target.tagnam",
+          "function(e){",
+          "git",
+          "git@github.com:15129230785/gitbook.git",
+          "gitbook",
+          "origin",
+          "popup....\");document.onclick",
+          "push",
+          "window.open(e.target.src,e.target.src)}img{cursor:pointer}",
+          "下面以软件管理服务为例https://www.baidu.com",
+          "代码提交篇",
+          "克隆代码到本地",
+          "在git网站上提mr",
+          "基于主干拉个人开发分支",
+          "开发代码，提交到本地，推送到远程仓库",
+          "怎么合代码",
+          "步骤1",
+          "步骤2",
+          "步骤3",
+          "步骤4",
+          "步骤5",
+          "这是视频https://www.baidu.com"
+        ]
+      },
+      "length": 3
+    },
+    "tokenStore": {
+      "root": {
+        "docs": {},
+        "\"": {
+          "docs": {},
+          "i": {
+            "docs": {},
+            "m": {
+              "docs": {},
+              "g": {
+                "docs": {},
+                "\"": {
+                  "docs": {
+                    "./": {
+                      "ref": "./",
+                      "tf": 0.041666666666666664
+                    },
+                    "po/debugcode.html": {
+                      "ref": "po/debugcode.html",
+                      "tf": 0.0136986301369863
+                    },
+                    "po/first.html": {
+                      "ref": "po/first.html",
+                      "tf": 0.024390243902439025
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "&": {
+          "docs": {},
+          "&": {
+            "docs": {
+              "./": {
+                "ref": "./",
+                "tf": 0.041666666666666664
+              },
+              "po/debugcode.html": {
+                "ref": "po/debugcode.html",
+                "tf": 0.0136986301369863
+              },
+              "po/first.html": {
+                "ref": "po/first.html",
+                "tf": 0.024390243902439025
+              }
+            }
+          }
+        },
+        ".": {
+          "docs": {
+            "./": {
+              "ref": "./",
+              "tf": 0.041666666666666664
+            }
+          },
+          "/": {
+            "docs": {},
+            "d": {
+              "docs": {},
+              "o": {
+                "docs": {},
+                "c": {
+                  "docs": {
+                    "./": {
+                      "ref": "./",
+                      "tf": 0.041666666666666664
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "=": {
+          "docs": {
+            "./": {
+              "ref": "./",
+              "tf": 0.041666666666666664
+            },
+            "po/debugcode.html": {
+              "ref": "po/debugcode.html",
+              "tf": 0.0821917808219178
+            },
+            "po/first.html": {
+              "ref": "po/first.html",
+              "tf": 0.024390243902439025
+            }
+          },
+          "=": {
+            "docs": {},
+            "=": {
+              "docs": {
+                "./": {
+                  "ref": "./",
+                  "tf": 0.041666666666666664
+                },
+                "po/debugcode.html": {
+                  "ref": "po/debugcode.html",
+                  "tf": 0.0136986301369863
+                },
+                "po/first.html": {
+                  "ref": "po/first.html",
+                  "tf": 0.024390243902439025
+                }
+              }
+            }
+          }
+        },
+        "b": {
+          "docs": {
+            "po/first.html": {
+              "ref": "po/first.html",
+              "tf": 0.024390243902439025
+            }
+          },
+          "o": {
+            "docs": {},
+            "l": {
+              "docs": {},
+              "d": {
+                "docs": {
+                  "./": {
+                    "ref": "./",
+                    "tf": 0.041666666666666664
+                  }
+                }
+              }
+            }
+          },
+          "u": {
+            "docs": {},
+            "i": {
+              "docs": {},
+              "l": {
+                "docs": {},
+                "d": {
+                  "docs": {
+                    "./": {
+                      "ref": "./",
+                      "tf": 0.041666666666666664
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "s": {
+            "docs": {},
+            "p": {
+              "docs": {},
+              "s": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "s": {
+                    "docs": {},
+                    "s": {
+                      "docs": {},
+                      "i": {
+                        "docs": {},
+                        "o": {
+                          "docs": {},
+                          "n": {
+                            "docs": {
+                              "po/debugcode.html": {
+                                "ref": "po/debugcode.html",
+                                "tf": 0.0136986301369863
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "c": {
+          "docs": {},
+          "o": {
+            "docs": {},
+            "d": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "./": {
+                    "ref": "./",
+                    "tf": 0.041666666666666664
+                  }
+                }
+              }
+            },
+            "n": {
+              "docs": {},
+              "s": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "l": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      ".": {
+                        "docs": {},
+                        "l": {
+                          "docs": {},
+                          "o": {
+                            "docs": {},
+                            "g": {
+                              "docs": {},
+                              "(": {
+                                "docs": {},
+                                "\"": {
+                                  "docs": {},
+                                  "p": {
+                                    "docs": {},
+                                    "l": {
+                                      "docs": {},
+                                      "u": {
+                                        "docs": {},
+                                        "g": {
+                                          "docs": {},
+                                          "i": {
+                                            "docs": {},
+                                            "n": {
+                                              "docs": {
+                                                "./": {
+                                                  "ref": "./",
+                                                  "tf": 0.041666666666666664
+                                                },
+                                                "po/debugcode.html": {
+                                                  "ref": "po/debugcode.html",
+                                                  "tf": 0.0136986301369863
+                                                },
+                                                "po/first.html": {
+                                                  "ref": "po/first.html",
+                                                  "tf": 0.024390243902439025
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "t": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "n": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "po/debugcode.html": {
+                          "ref": "po/debugcode.html",
+                          "tf": 0.0136986301369863
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "o": {
+              "docs": {},
+              "k": {
+                "docs": {},
+                "i": {
+                  "docs": {
+                    "po/debugcode.html": {
+                      "ref": "po/debugcode.html",
+                      "tf": 0.0136986301369863
+                    }
+                  }
+                }
+              }
+            },
+            "m": {
+              "docs": {},
+              "m": {
+                "docs": {},
+                "i": {
+                  "docs": {},
+                  "t": {
+                    "docs": {},
+                    "t": {
+                      "docs": {},
+                      "e": {
+                        "docs": {},
+                        "r": {
+                          "docs": {},
+                          "合": {
+                            "docs": {},
+                            "入": {
+                              "docs": {
+                                "po/first.html": {
+                                  "ref": "po/first.html",
+                                  "tf": 0.024390243902439025
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "l": {
+            "docs": {},
+            "e": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "n": {
+                  "docs": {
+                    "po/debugcode.html": {
+                      "ref": "po/debugcode.html",
+                      "tf": 0.0273972602739726
+                    }
+                  }
+                }
+              }
+            },
+            "i": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "n": {
+                  "docs": {},
+                  "/": {
+                    "docs": {},
+                    "c": {
+                      "docs": {},
+                      "o": {
+                        "docs": {},
+                        "o": {
+                          "docs": {},
+                          "h": {
+                            "docs": {},
+                            "j": {
+                              "docs": {},
+                              "c": {
+                                "docs": {},
+                                "p": {
+                                  "docs": {},
+                                  "h": {
+                                    "docs": {},
+                                    "d": {
+                                      "docs": {},
+                                      "f": {
+                                        "docs": {},
+                                        "g": {
+                                          "docs": {},
+                                          "b": {
+                                            "docs": {},
+                                            "i": {
+                                              "docs": {},
+                                              "o": {
+                                                "docs": {},
+                                                "l": {
+                                                  "docs": {},
+                                                  "n": {
+                                                    "docs": {},
+                                                    "e": {
+                                                      "docs": {},
+                                                      "k": {
+                                                        "docs": {},
+                                                        "d": {
+                                                          "docs": {},
+                                                          "p": {
+                                                            "docs": {},
+                                                            "b": {
+                                                              "docs": {},
+                                                              "c": {
+                                                                "docs": {},
+                                                                "i": {
+                                                                  "docs": {},
+                                                                  "j": {
+                                                                    "docs": {},
+                                                                    "m": {
+                                                                      "docs": {},
+                                                                      "h": {
+                                                                        "docs": {},
+                                                                        "a": {
+                                                                          "docs": {},
+                                                                          "m": {
+                                                                            "docs": {},
+                                                                            "b": {
+                                                                              "docs": {},
+                                                                              "j": {
+                                                                                "docs": {},
+                                                                                "f": {
+                                                                                  "docs": {},
+                                                                                  "f": {
+                                                                                    "docs": {
+                                                                                      "po/debugcode.html": {
+                                                                                        "ref": "po/debugcode.html",
+                                                                                        "tf": 0.0136986301369863
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "o": {
+              "docs": {},
+              "n": {
+                "docs": {},
+                "e": {
+                  "docs": {
+                    "po/first.html": {
+                      "ref": "po/first.html",
+                      "tf": 0.024390243902439025
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "d": {
+            "docs": {
+              "po/first.html": {
+                "ref": "po/first.html",
+                "tf": 0.024390243902439025
+              }
+            }
+          },
+          "h": {
+            "docs": {},
+            "e": {
+              "docs": {},
+              "c": {
+                "docs": {},
+                "k": {
+                  "docs": {},
+                  "o": {
+                    "docs": {},
+                    "u": {
+                      "docs": {},
+                      "t": {
+                        "docs": {
+                          "po/first.html": {
+                            "ref": "po/first.html",
+                            "tf": 0.024390243902439025
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "e": {
+          "docs": {},
+          ".": {
+            "docs": {},
+            "t": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "r": {
+                  "docs": {},
+                  "g": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      "t": {
+                        "docs": {},
+                        ".": {
+                          "docs": {},
+                          "t": {
+                            "docs": {},
+                            "a": {
+                              "docs": {},
+                              "g": {
+                                "docs": {},
+                                "n": {
+                                  "docs": {},
+                                  "a": {
+                                    "docs": {},
+                                    "m": {
+                                      "docs": {
+                                        "./": {
+                                          "ref": "./",
+                                          "tf": 0.041666666666666664
+                                        },
+                                        "po/debugcode.html": {
+                                          "ref": "po/debugcode.html",
+                                          "tf": 0.0136986301369863
+                                        },
+                                        "po/first.html": {
+                                          "ref": "po/first.html",
+                                          "tf": 0.024390243902439025
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "f": {
+          "docs": {},
+          "u": {
+            "docs": {},
+            "n": {
+              "docs": {},
+              "c": {
+                "docs": {},
+                "t": {
+                  "docs": {},
+                  "i": {
+                    "docs": {},
+                    "o": {
+                      "docs": {},
+                      "n": {
+                        "docs": {},
+                        "(": {
+                          "docs": {},
+                          "e": {
+                            "docs": {},
+                            ")": {
+                              "docs": {},
+                              "{": {
+                                "docs": {
+                                  "./": {
+                                    "ref": "./",
+                                    "tf": 0.041666666666666664
+                                  },
+                                  "po/debugcode.html": {
+                                    "ref": "po/debugcode.html",
+                                    "tf": 0.0136986301369863
+                                  },
+                                  "po/first.html": {
+                                    "ref": "po/first.html",
+                                    "tf": 0.024390243902439025
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "g": {
+          "docs": {},
+          "i": {
+            "docs": {},
+            "t": {
+              "docs": {
+                "po/first.html": {
+                  "ref": "po/first.html",
+                  "tf": 0.07317073170731707
+                }
+              },
+              "b": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "o": {
+                    "docs": {},
+                    "k": {
+                      "docs": {
+                        "./": {
+                          "ref": "./",
+                          "tf": 0.041666666666666664
+                        },
+                        "po/first.html": {
+                          "ref": "po/first.html",
+                          "tf": 0.024390243902439025
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "h": {
+                "docs": {},
+                "u": {
+                  "docs": {},
+                  "b": {
+                    "docs": {
+                      "./": {
+                        "ref": "./",
+                        "tf": 0.041666666666666664
+                      }
+                    }
+                  }
+                }
+              },
+              "@": {
+                "docs": {},
+                "g": {
+                  "docs": {},
+                  "i": {
+                    "docs": {},
+                    "t": {
+                      "docs": {},
+                      "h": {
+                        "docs": {},
+                        "u": {
+                          "docs": {},
+                          "b": {
+                            "docs": {},
+                            ".": {
+                              "docs": {},
+                              "c": {
+                                "docs": {},
+                                "o": {
+                                  "docs": {},
+                                  "m": {
+                                    "docs": {},
+                                    ":": {
+                                      "1": {
+                                        "5": {
+                                          "1": {
+                                            "2": {
+                                              "9": {
+                                                "2": {
+                                                  "3": {
+                                                    "0": {
+                                                      "7": {
+                                                        "8": {
+                                                          "5": {
+                                                            "docs": {},
+                                                            "/": {
+                                                              "docs": {},
+                                                              "g": {
+                                                                "docs": {},
+                                                                "i": {
+                                                                  "docs": {},
+                                                                  "t": {
+                                                                    "docs": {},
+                                                                    "b": {
+                                                                      "docs": {},
+                                                                      "o": {
+                                                                        "docs": {},
+                                                                        "o": {
+                                                                          "docs": {},
+                                                                          "k": {
+                                                                            "docs": {},
+                                                                            ".": {
+                                                                              "docs": {},
+                                                                              "g": {
+                                                                                "docs": {},
+                                                                                "i": {
+                                                                                  "docs": {},
+                                                                                  "t": {
+                                                                                    "docs": {
+                                                                                      "po/first.html": {
+                                                                                        "ref": "po/first.html",
+                                                                                        "tf": 0.024390243902439025
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          },
+                                                          "docs": {}
+                                                        },
+                                                        "docs": {}
+                                                      },
+                                                      "docs": {}
+                                                    },
+                                                    "docs": {}
+                                                  },
+                                                  "docs": {}
+                                                },
+                                                "docs": {}
+                                              },
+                                              "docs": {}
+                                            },
+                                            "docs": {}
+                                          },
+                                          "docs": {}
+                                        },
+                                        "docs": {}
+                                      },
+                                      "docs": {}
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "i": {
+          "docs": {},
+          "t": {
+            "docs": {},
+            "a": {
+              "docs": {},
+              "l": {
+                "docs": {
+                  "./": {
+                    "ref": "./",
+                    "tf": 0.041666666666666664
+                  }
+                }
+              }
+            }
+          },
+          "n": {
+            "docs": {},
+            "s": {
+              "docs": {},
+              "t": {
+                "docs": {},
+                "a": {
+                  "docs": {},
+                  "l": {
+                    "docs": {
+                      "po/debugcode.html": {
+                        "ref": "po/debugcode.html",
+                        "tf": 0.0273972602739726
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "l": {
+          "docs": {},
+          "i": {
+            "docs": {},
+            "s": {
+              "docs": {},
+              "t": {
+                "docs": {
+                  "./": {
+                    "ref": "./",
+                    "tf": 0.08333333333333333
+                  }
+                }
+              }
+            }
+          }
+        },
+        "n": {
+          "docs": {},
+          "u": {
+            "docs": {},
+            "m": {
+              "docs": {},
+              "b": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "r": {
+                    "docs": {
+                      "./": {
+                        "ref": "./",
+                        "tf": 0.041666666666666664
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "p": {
+            "docs": {},
+            "m": {
+              "docs": {
+                "po/debugcode.html": {
+                  "ref": "po/debugcode.html",
+                  "tf": 0.0273972602739726
+                }
+              }
+            }
+          }
+        },
+        "p": {
+          "docs": {},
+          "a": {
+            "docs": {},
+            "g": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "./": {
+                    "ref": "./",
+                    "tf": 0.041666666666666664
+                  }
+                }
+              }
+            },
+            "c": {
+              "docs": {},
+              "k": {
+                "docs": {},
+                "a": {
+                  "docs": {},
+                  "g": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      ".": {
+                        "docs": {},
+                        "j": {
+                          "docs": {},
+                          "s": {
+                            "docs": {},
+                            "o": {
+                              "docs": {},
+                              "n": {
+                                "docs": {
+                                  "po/debugcode.html": {
+                                    "ref": "po/debugcode.html",
+                                    "tf": 0.0136986301369863
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "o": {
+            "docs": {},
+            "p": {
+              "docs": {},
+              "u": {
+                "docs": {},
+                "p": {
+                  "docs": {},
+                  ".": {
+                    "docs": {},
+                    ".": {
+                      "docs": {},
+                      ".": {
+                        "docs": {},
+                        ".": {
+                          "docs": {},
+                          "\"": {
+                            "docs": {},
+                            ")": {
+                              "docs": {},
+                              ";": {
+                                "docs": {},
+                                "d": {
+                                  "docs": {},
+                                  "o": {
+                                    "docs": {},
+                                    "c": {
+                                      "docs": {},
+                                      "u": {
+                                        "docs": {},
+                                        "m": {
+                                          "docs": {},
+                                          "e": {
+                                            "docs": {},
+                                            "n": {
+                                              "docs": {},
+                                              "t": {
+                                                "docs": {},
+                                                ".": {
+                                                  "docs": {},
+                                                  "o": {
+                                                    "docs": {},
+                                                    "n": {
+                                                      "docs": {},
+                                                      "c": {
+                                                        "docs": {},
+                                                        "l": {
+                                                          "docs": {},
+                                                          "i": {
+                                                            "docs": {},
+                                                            "c": {
+                                                              "docs": {},
+                                                              "k": {
+                                                                "docs": {
+                                                                  "./": {
+                                                                    "ref": "./",
+                                                                    "tf": 0.041666666666666664
+                                                                  },
+                                                                  "po/debugcode.html": {
+                                                                    "ref": "po/debugcode.html",
+                                                                    "tf": 0.0136986301369863
+                                                                  },
+                                                                  "po/first.html": {
+                                                                    "ref": "po/first.html",
+                                                                    "tf": 0.024390243902439025
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "s": {
+              "docs": {},
+              "t": {
+                "docs": {},
+                "m": {
+                  "docs": {},
+                  "a": {
+                    "docs": {},
+                    "n": {
+                      "docs": {
+                        "po/debugcode.html": {
+                          "ref": "po/debugcode.html",
+                          "tf": 0.0136986301369863
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "u": {
+            "docs": {},
+            "s": {
+              "docs": {},
+              "h": {
+                "docs": {
+                  "po/first.html": {
+                    "ref": "po/first.html",
+                    "tf": 0.024390243902439025
+                  }
+                }
+              }
+            }
+          }
+        },
+        "t": {
+          "docs": {},
+          "e": {
+            "docs": {},
+            "x": {
+              "docs": {},
+              "t": {
+                "docs": {
+                  "./": {
+                    "ref": "./",
+                    "tf": 0.041666666666666664
+                  }
+                }
+              }
+            }
+          },
+          "y": {
+            "docs": {},
+            "p": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "po/debugcode.html": {
+                    "ref": "po/debugcode.html",
+                    "tf": 0.0136986301369863
+                  }
+                }
+              }
+            }
+          }
+        },
+        "w": {
+          "docs": {},
+          "e": {
+            "docs": {},
+            "l": {
+              "docs": {},
+              "c": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "m": {
+                    "docs": {
+                      "./": {
+                        "ref": "./",
+                        "tf": 0.041666666666666664
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "i": {
+            "docs": {},
+            "n": {
+              "docs": {},
+              "d": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "w": {
+                    "docs": {},
+                    ".": {
+                      "docs": {},
+                      "o": {
+                        "docs": {},
+                        "p": {
+                          "docs": {},
+                          "e": {
+                            "docs": {},
+                            "n": {
+                              "docs": {},
+                              "(": {
+                                "docs": {},
+                                "e": {
+                                  "docs": {},
+                                  ".": {
+                                    "docs": {},
+                                    "t": {
+                                      "docs": {},
+                                      "a": {
+                                        "docs": {},
+                                        "r": {
+                                          "docs": {},
+                                          "g": {
+                                            "docs": {},
+                                            "e": {
+                                              "docs": {},
+                                              "t": {
+                                                "docs": {},
+                                                ".": {
+                                                  "docs": {},
+                                                  "s": {
+                                                    "docs": {},
+                                                    "r": {
+                                                      "docs": {},
+                                                      "c": {
+                                                        "docs": {},
+                                                        ",": {
+                                                          "docs": {},
+                                                          "e": {
+                                                            "docs": {},
+                                                            ".": {
+                                                              "docs": {},
+                                                              "t": {
+                                                                "docs": {},
+                                                                "a": {
+                                                                  "docs": {},
+                                                                  "r": {
+                                                                    "docs": {},
+                                                                    "g": {
+                                                                      "docs": {},
+                                                                      "e": {
+                                                                        "docs": {},
+                                                                        "t": {
+                                                                          "docs": {},
+                                                                          ".": {
+                                                                            "docs": {},
+                                                                            "s": {
+                                                                              "docs": {},
+                                                                              "r": {
+                                                                                "docs": {},
+                                                                                "c": {
+                                                                                  "docs": {},
+                                                                                  ")": {
+                                                                                    "docs": {},
+                                                                                    "}": {
+                                                                                      "docs": {},
+                                                                                      "i": {
+                                                                                        "docs": {},
+                                                                                        "m": {
+                                                                                          "docs": {},
+                                                                                          "g": {
+                                                                                            "docs": {},
+                                                                                            "{": {
+                                                                                              "docs": {},
+                                                                                              "c": {
+                                                                                                "docs": {},
+                                                                                                "u": {
+                                                                                                  "docs": {},
+                                                                                                  "r": {
+                                                                                                    "docs": {},
+                                                                                                    "s": {
+                                                                                                      "docs": {},
+                                                                                                      "o": {
+                                                                                                        "docs": {},
+                                                                                                        "r": {
+                                                                                                          "docs": {},
+                                                                                                          ":": {
+                                                                                                            "docs": {},
+                                                                                                            "p": {
+                                                                                                              "docs": {},
+                                                                                                              "o": {
+                                                                                                                "docs": {},
+                                                                                                                "i": {
+                                                                                                                  "docs": {},
+                                                                                                                  "n": {
+                                                                                                                    "docs": {},
+                                                                                                                    "t": {
+                                                                                                                      "docs": {},
+                                                                                                                      "e": {
+                                                                                                                        "docs": {},
+                                                                                                                        "r": {
+                                                                                                                          "docs": {},
+                                                                                                                          "}": {
+                                                                                                                            "docs": {
+                                                                                                                              "./": {
+                                                                                                                                "ref": "./",
+                                                                                                                                "tf": 0.041666666666666664
+                                                                                                                              },
+                                                                                                                              "po/debugcode.html": {
+                                                                                                                                "ref": "po/debugcode.html",
+                                                                                                                                "tf": 0.0136986301369863
+                                                                                                                              },
+                                                                                                                              "po/first.html": {
+                                                                                                                                "ref": "po/first.html",
+                                                                                                                                "tf": 0.024390243902439025
+                                                                                                                              }
+                                                                                                                            }
+                                                                                                                          }
+                                                                                                                        }
+                                                                                                                      }
+                                                                                                                    }
+                                                                                                                  }
+                                                                                                                }
+                                                                                                              }
+                                                                                                            }
+                                                                                                          }
+                                                                                                        }
+                                                                                                      }
+                                                                                                    }
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "个": {
+          "docs": {},
+          "人": {
+            "docs": {},
+            "笔": {
+              "docs": {},
+              "记": {
+                "docs": {},
+                "指": {
+                  "docs": {},
+                  "南": {
+                    "docs": {
+                      "./": {
+                        "ref": "./",
+                        "tf": 10
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "我": {
+          "docs": {},
+          "的": {
+            "docs": {},
+            "博": {
+              "docs": {},
+              "客": {
+                "docs": {
+                  "./": {
+                    "ref": "./",
+                    "tf": 0.041666666666666664
+                  }
+                }
+              }
+            }
+          }
+        },
+        "'": {
+          "docs": {},
+          "b": {
+            "docs": {},
+            "s": {
+              "docs": {},
+              "p": {
+                "docs": {},
+                "s": {
+                  "docs": {},
+                  "e": {
+                    "docs": {},
+                    "s": {
+                      "docs": {},
+                      "s": {
+                        "docs": {},
+                        "i": {
+                          "docs": {},
+                          "o": {
+                            "docs": {},
+                            "n": {
+                              "docs": {},
+                              "=": {
+                                "docs": {},
+                                "x": {
+                                  "docs": {},
+                                  "x": {
+                                    "docs": {},
+                                    "x": {
+                                      "docs": {},
+                                      "x": {
+                                        "docs": {},
+                                        "x": {
+                                          "docs": {},
+                                          "'": {
+                                            "docs": {},
+                                            ";": {
+                                              "docs": {
+                                                "po/debugcode.html": {
+                                                  "ref": "po/debugcode.html",
+                                                  "tf": 0.0136986301369863
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "l": {
+            "docs": {},
+            "o": {
+              "docs": {},
+              "c": {
+                "docs": {},
+                "a": {
+                  "docs": {},
+                  "l": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      "=": {
+                        "docs": {},
+                        "e": {
+                          "docs": {},
+                          "n": {
+                            "docs": {
+                              "po/debugcode.html": {
+                                "ref": "po/debugcode.html",
+                                "tf": 0.0136986301369863
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "l": {
+                      "docs": {},
+                      "a": {
+                        "docs": {},
+                        "n": {
+                          "docs": {},
+                          "g": {
+                            "docs": {},
+                            "u": {
+                              "docs": {},
+                              "a": {
+                                "docs": {},
+                                "g": {
+                                  "docs": {},
+                                  "e": {
+                                    "docs": {},
+                                    "=": {
+                                      "docs": {},
+                                      "z": {
+                                        "docs": {},
+                                        "h": {
+                                          "docs": {},
+                                          "_": {
+                                            "docs": {},
+                                            "c": {
+                                              "docs": {},
+                                              "n": {
+                                                "docs": {},
+                                                ";": {
+                                                  "docs": {},
+                                                  "'": {
+                                                    "docs": {},
+                                                    ";": {
+                                                      "docs": {
+                                                        "po/debugcode.html": {
+                                                          "ref": "po/debugcode.html",
+                                                          "tf": 0.0136986301369863
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "r": {
+            "docs": {},
+            "o": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "r": {
+                  "docs": {},
+                  "a": {
+                    "docs": {},
+                    "n": {
+                      "docs": {},
+                      "d": {
+                        "docs": {},
+                        "=": {
+                          "docs": {},
+                          "x": {
+                            "docs": {},
+                            "x": {
+                              "docs": {},
+                              "x": {
+                                "docs": {},
+                                "x": {
+                                  "docs": {},
+                                  "x": {
+                                    "docs": {},
+                                    "x": {
+                                      "docs": {},
+                                      ";": {
+                                        "docs": {},
+                                        "'": {
+                                          "docs": {},
+                                          ";": {
+                                            "docs": {
+                                              "po/debugcode.html": {
+                                                "ref": "po/debugcode.html",
+                                                "tf": 0.0136986301369863
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "u": {
+            "docs": {},
+            "s": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "r": {
+                  "docs": {},
+                  "_": {
+                    "docs": {},
+                    "t": {
+                      "docs": {},
+                      "i": {
+                        "docs": {},
+                        "m": {
+                          "docs": {},
+                          "e": {
+                            "docs": {},
+                            "_": {
+                              "docs": {},
+                              "a": {
+                                "docs": {},
+                                "_": {
+                                  "docs": {},
+                                  "l": {
+                                    "docs": {},
+                                    "a": {
+                                      "docs": {},
+                                      "n": {
+                                        "docs": {},
+                                        "g": {
+                                          "docs": {},
+                                          "=": {
+                                            "docs": {},
+                                            "'": {
+                                              "docs": {},
+                                              ";": {
+                                                "docs": {
+                                                  "po/debugcode.html": {
+                                                    "ref": "po/debugcode.html",
+                                                    "tf": 0.0136986301369863
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        ":": {
+          "docs": {
+            "po/debugcode.html": {
+              "ref": "po/debugcode.html",
+              "tf": 0.0410958904109589
+            }
+          }
+        },
+        "a": {
+          "docs": {},
+          "p": {
+            "docs": {},
+            "p": {
+              "docs": {},
+              "l": {
+                "docs": {},
+                "i": {
+                  "docs": {},
+                  "c": {
+                    "docs": {},
+                    "a": {
+                      "docs": {},
+                      "t": {
+                        "docs": {},
+                        "i": {
+                          "docs": {},
+                          "o": {
+                            "docs": {},
+                            "n": {
+                              "docs": {},
+                              "/": {
+                                "docs": {},
+                                "j": {
+                                  "docs": {},
+                                  "s": {
+                                    "docs": {},
+                                    "o": {
+                                      "docs": {},
+                                      "n": {
+                                        "docs": {
+                                          "po/debugcode.html": {
+                                            "ref": "po/debugcode.html",
+                                            "tf": 0.0136986301369863
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "d": {
+          "docs": {},
+          "m": {
+            "docs": {},
+            "a": {
+              "docs": {},
+              "v": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "n": {
+                    "docs": {},
+                    ".": {
+                      "docs": {},
+                      "t": {
+                        "docs": {},
+                        "e": {
+                          "docs": {},
+                          "s": {
+                            "docs": {},
+                            "t": {
+                              "docs": {},
+                              ".": {
+                                "docs": {},
+                                "s": {
+                                  "docs": {},
+                                  "k": {
+                                    "docs": {},
+                                    "i": {
+                                      "docs": {},
+                                      "p": {
+                                        "docs": {},
+                                        "=": {
+                                          "docs": {},
+                                          "t": {
+                                            "docs": {},
+                                            "r": {
+                                              "docs": {},
+                                              "u": {
+                                                "docs": {
+                                                  "po/debugcode.html": {
+                                                    "ref": "po/debugcode.html",
+                                                    "tf": 0.0136986301369863
+                                                  }
+                                                },
+                                                "e": {
+                                                  "docs": {},
+                                                  "，": {
+                                                    "docs": {},
+                                                    "下": {
+                                                      "docs": {},
+                                                      "载": {
+                                                        "docs": {},
+                                                        "好": {
+                                                          "docs": {},
+                                                          "前": {
+                                                            "docs": {},
+                                                            "端": {
+                                                              "docs": {},
+                                                              "的": {
+                                                                "docs": {},
+                                                                "依": {
+                                                                  "docs": {},
+                                                                  "赖": {
+                                                                    "docs": {},
+                                                                    "n": {
+                                                                      "docs": {},
+                                                                      "o": {
+                                                                        "docs": {},
+                                                                        "d": {
+                                                                          "docs": {},
+                                                                          "e": {
+                                                                            "docs": {},
+                                                                            "_": {
+                                                                              "docs": {},
+                                                                              "m": {
+                                                                                "docs": {},
+                                                                                "o": {
+                                                                                  "docs": {},
+                                                                                  "d": {
+                                                                                    "docs": {},
+                                                                                    "u": {
+                                                                                      "docs": {},
+                                                                                      "l": {
+                                                                                        "docs": {
+                                                                                          "po/debugcode.html": {
+                                                                                            "ref": "po/debugcode.html",
+                                                                                            "tf": 0.0136986301369863
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "o": {
+            "docs": {},
+            "c": {
+              "docs": {},
+              "u": {
+                "docs": {},
+                "m": {
+                  "docs": {},
+                  "e": {
+                    "docs": {},
+                    "n": {
+                      "docs": {},
+                      "t": {
+                        "docs": {},
+                        ".": {
+                          "docs": {},
+                          "c": {
+                            "docs": {},
+                            "o": {
+                              "docs": {},
+                              "o": {
+                                "docs": {},
+                                "k": {
+                                  "docs": {},
+                                  "i": {
+                                    "docs": {
+                                      "po/debugcode.html": {
+                                        "ref": "po/debugcode.html",
+                                        "tf": 0.0684931506849315
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "e": {
+            "docs": {},
+            "v": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "l": {
+                  "docs": {},
+                  "o": {
+                    "docs": {},
+                    "p": {
+                      "docs": {},
+                      "_": {
+                        "docs": {},
+                        "工": {
+                          "docs": {},
+                          "号": {
+                            "docs": {
+                              "po/first.html": {
+                                "ref": "po/first.html",
+                                "tf": 0.04878048780487805
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "自": {
+                        "docs": {},
+                        "动": {
+                          "docs": {},
+                          "合": {
+                            "docs": {},
+                            "主": {
+                              "docs": {},
+                              "干": {
+                                "docs": {},
+                                "有": {
+                                  "docs": {},
+                                  "时": {
+                                    "docs": {},
+                                    "会": {
+                                      "docs": {},
+                                      "失": {
+                                        "docs": {},
+                                        "效": {
+                                          "docs": {},
+                                          "，": {
+                                            "docs": {},
+                                            "服": {
+                                              "docs": {},
+                                              "务": {
+                                                "docs": {},
+                                                "o": {
+                                                  "docs": {},
+                                                  "w": {
+                                                    "docs": {},
+                                                    "n": {
+                                                      "docs": {},
+                                                      "e": {
+                                                        "docs": {},
+                                                        "r": {
+                                                          "docs": {},
+                                                          "每": {
+                                                            "docs": {},
+                                                            "次": {
+                                                              "docs": {},
+                                                              "出": {
+                                                                "docs": {},
+                                                                "版": {
+                                                                  "docs": {},
+                                                                  "本": {
+                                                                    "docs": {},
+                                                                    "前": {
+                                                                      "docs": {},
+                                                                      "一": {
+                                                                        "docs": {},
+                                                                        "定": {
+                                                                          "docs": {},
+                                                                          "要": {
+                                                                            "docs": {},
+                                                                            "对": {
+                                                                              "docs": {},
+                                                                              "比": {
+                                                                                "docs": {},
+                                                                                "两": {
+                                                                                  "docs": {},
+                                                                                  "个": {
+                                                                                    "docs": {},
+                                                                                    "分": {
+                                                                                      "docs": {},
+                                                                                      "支": {
+                                                                                        "docs": {},
+                                                                                        "无": {
+                                                                                          "docs": {},
+                                                                                          "差": {
+                                                                                            "docs": {},
+                                                                                            "异": {
+                                                                                              "docs": {},
+                                                                                              "。": {
+                                                                                                "docs": {
+                                                                                                  "po/first.html": {
+                                                                                                    "ref": "po/first.html",
+                                                                                                    "tf": 0.024390243902439025
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "h": {
+          "docs": {},
+          "t": {
+            "docs": {},
+            "t": {
+              "docs": {},
+              "p": {
+                "docs": {},
+                "s": {
+                  "docs": {},
+                  ":": {
+                    "docs": {},
+                    "/": {
+                      "docs": {},
+                      "/": {
+                        "docs": {},
+                        "c": {
+                          "docs": {},
+                          "h": {
+                            "docs": {},
+                            "r": {
+                              "docs": {},
+                              "o": {
+                                "docs": {},
+                                "m": {
+                                  "docs": {},
+                                  "e": {
+                                    "docs": {},
+                                    ".": {
+                                      "docs": {},
+                                      "g": {
+                                        "docs": {},
+                                        "o": {
+                                          "docs": {},
+                                          "o": {
+                                            "docs": {},
+                                            "g": {
+                                              "docs": {},
+                                              "l": {
+                                                "docs": {},
+                                                "e": {
+                                                  "docs": {},
+                                                  ".": {
+                                                    "docs": {},
+                                                    "c": {
+                                                      "docs": {},
+                                                      "o": {
+                                                        "docs": {},
+                                                        "m": {
+                                                          "docs": {},
+                                                          "/": {
+                                                            "docs": {},
+                                                            "w": {
+                                                              "docs": {},
+                                                              "e": {
+                                                                "docs": {},
+                                                                "b": {
+                                                                  "docs": {},
+                                                                  "s": {
+                                                                    "docs": {},
+                                                                    "t": {
+                                                                      "docs": {},
+                                                                      "o": {
+                                                                        "docs": {},
+                                                                        "r": {
+                                                                          "docs": {},
+                                                                          "e": {
+                                                                            "docs": {},
+                                                                            "/": {
+                                                                              "docs": {},
+                                                                              "d": {
+                                                                                "docs": {},
+                                                                                "e": {
+                                                                                  "docs": {},
+                                                                                  "t": {
+                                                                                    "docs": {},
+                                                                                    "a": {
+                                                                                      "docs": {},
+                                                                                      "i": {
+                                                                                        "docs": {},
+                                                                                        "l": {
+                                                                                          "docs": {},
+                                                                                          "/": {
+                                                                                            "docs": {},
+                                                                                            "t": {
+                                                                                              "docs": {},
+                                                                                              "a": {
+                                                                                                "docs": {},
+                                                                                                "b": {
+                                                                                                  "docs": {
+                                                                                                    "po/debugcode.html": {
+                                                                                                      "ref": "po/debugcode.html",
+                                                                                                      "tf": 0.0136986301369863
+                                                                                                    }
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "m": {
+          "docs": {},
+          "v": {
+            "docs": {},
+            "n": {
+              "docs": {
+                "po/debugcode.html": {
+                  "ref": "po/debugcode.html",
+                  "tf": 0.0273972602739726
+                }
+              }
+            }
+          }
+        },
+        "r": {
+          "docs": {},
+          "e": {
+            "docs": {},
+            "s": {
+              "docs": {},
+              "t": {
+                "docs": {
+                  "po/debugcode.html": {
+                    "ref": "po/debugcode.html",
+                    "tf": 0.0136986301369863
+                  }
+                },
+                "接": {
+                  "docs": {},
+                  "口": {
+                    "docs": {
+                      "po/debugcode.html": {
+                        "ref": "po/debugcode.html",
+                        "tf": 0.0136986301369863
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "o": {
+            "docs": {},
+            "a": {
+              "docs": {},
+              "r": {
+                "docs": {},
+                "a": {
+                  "docs": {},
+                  "n": {
+                    "docs": {},
+                    "d": {
+                      "docs": {
+                        "po/debugcode.html": {
+                          "ref": "po/debugcode.html",
+                          "tf": 0.0136986301369863
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "u": {
+            "docs": {},
+            "n": {
+              "docs": {
+                "po/debugcode.html": {
+                  "ref": "po/debugcode.html",
+                  "tf": 0.0273972602739726
+                }
+              }
+            }
+          }
+        },
+        "s": {
+          "docs": {},
+          "t": {
+            "docs": {},
+            "a": {
+              "docs": {},
+              "r": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "po/debugcode.html": {
+                      "ref": "po/debugcode.html",
+                      "tf": 0.0273972602739726
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "u": {
+          "docs": {},
+          "s": {
+            "docs": {},
+            ";": {
+              "docs": {},
+              "'": {
+                "docs": {},
+                ";": {
+                  "docs": {
+                    "po/debugcode.html": {
+                      "ref": "po/debugcode.html",
+                      "tf": 0.0136986301369863
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "一": {
+          "docs": {},
+          "、": {
+            "docs": {
+              "po/debugcode.html": {
+                "ref": "po/debugcode.html",
+                "tf": 0.0136986301369863
+              }
+            }
+          }
+        },
+        "下": {
+          "docs": {},
+          "面": {
+            "docs": {},
+            "的": {
+              "docs": {},
+              "例": {
+                "docs": {},
+                "子": {
+                  "docs": {},
+                  "是": {
+                    "docs": {},
+                    "性": {
+                      "docs": {},
+                      "能": {
+                        "docs": {},
+                        "服": {
+                          "docs": {},
+                          "务": {
+                            "docs": {},
+                            "p": {
+                              "docs": {},
+                              "m": {
+                                "docs": {},
+                                "w": {
+                                  "docs": {},
+                                  "e": {
+                                    "docs": {},
+                                    "b": {
+                                      "docs": {},
+                                      "s": {
+                                        "docs": {},
+                                        "i": {
+                                          "docs": {},
+                                          "t": {
+                                            "docs": {
+                                              "po/debugcode.html": {
+                                                "ref": "po/debugcode.html",
+                                                "tf": 0.0136986301369863
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "以": {
+              "docs": {},
+              "软": {
+                "docs": {},
+                "件": {
+                  "docs": {},
+                  "管": {
+                    "docs": {},
+                    "理": {
+                      "docs": {},
+                      "服": {
+                        "docs": {},
+                        "务": {
+                          "docs": {},
+                          "为": {
+                            "docs": {},
+                            "例": {
+                              "docs": {},
+                              "h": {
+                                "docs": {},
+                                "t": {
+                                  "docs": {},
+                                  "t": {
+                                    "docs": {},
+                                    "p": {
+                                      "docs": {},
+                                      "s": {
+                                        "docs": {},
+                                        ":": {
+                                          "docs": {},
+                                          "/": {
+                                            "docs": {},
+                                            "/": {
+                                              "docs": {},
+                                              "w": {
+                                                "docs": {},
+                                                "w": {
+                                                  "docs": {},
+                                                  "w": {
+                                                    "docs": {},
+                                                    ".": {
+                                                      "docs": {},
+                                                      "b": {
+                                                        "docs": {},
+                                                        "a": {
+                                                          "docs": {},
+                                                          "i": {
+                                                            "docs": {},
+                                                            "d": {
+                                                              "docs": {},
+                                                              "u": {
+                                                                "docs": {},
+                                                                ".": {
+                                                                  "docs": {},
+                                                                  "c": {
+                                                                    "docs": {},
+                                                                    "o": {
+                                                                      "docs": {},
+                                                                      "m": {
+                                                                        "docs": {
+                                                                          "po/first.html": {
+                                                                            "ref": "po/first.html",
+                                                                            "tf": 0.024390243902439025
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "中": {
+          "docs": {},
+          "的": {
+            "docs": {},
+            "p": {
+              "docs": {},
+              "r": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "x": {
+                    "docs": {},
+                    "y": {
+                      "docs": {},
+                      "为": {
+                        "docs": {},
+                        "环": {
+                          "docs": {},
+                          "境": {
+                            "docs": {},
+                            "i": {
+                              "docs": {},
+                              "p": {
+                                "docs": {
+                                  "po/debugcode.html": {
+                                    "ref": "po/debugcode.html",
+                                    "tf": 0.0136986301369863
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "二": {
+          "docs": {},
+          "、": {
+            "docs": {
+              "po/debugcode.html": {
+                "ref": "po/debugcode.html",
+                "tf": 0.0136986301369863
+              }
+            }
+          }
+        },
+        "从": {
+          "docs": {},
+          "环": {
+            "docs": {},
+            "境": {
+              "docs": {},
+              "的": {
+                "docs": {},
+                "某": {
+                  "docs": {},
+                  "个": {
+                    "docs": {},
+                    "请": {
+                      "docs": {},
+                      "求": {
+                        "docs": {},
+                        "上": {
+                          "docs": {},
+                          "拷": {
+                            "docs": {},
+                            "贝": {
+                              "docs": {},
+                              "过": {
+                                "docs": {},
+                                "来": {
+                                  "docs": {
+                                    "po/debugcode.html": {
+                                      "ref": "po/debugcode.html",
+                                      "tf": 0.0136986301369863
+                                    }
+                                  },
+                                  "，": {
+                                    "docs": {},
+                                    "不": {
+                                      "docs": {},
+                                      "带": {
+                                        "docs": {},
+                                        "l": {
+                                          "docs": {},
+                                          "o": {
+                                            "docs": {},
+                                            "c": {
+                                              "docs": {},
+                                              "a": {
+                                                "docs": {},
+                                                "l": {
+                                                  "docs": {},
+                                                  "e": {
+                                                    "docs": {},
+                                                    "=": {
+                                                      "docs": {
+                                                        "po/debugcode.html": {
+                                                          "ref": "po/debugcode.html",
+                                                          "tf": 0.0136986301369863
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "代": {
+          "docs": {},
+          "码": {
+            "docs": {},
+            "调": {
+              "docs": {},
+              "试": {
+                "docs": {},
+                "篇": {
+                  "docs": {
+                    "po/debugcode.html": {
+                      "ref": "po/debugcode.html",
+                      "tf": 10
+                    }
+                  }
+                }
+              }
+            },
+            "提": {
+              "docs": {},
+              "交": {
+                "docs": {},
+                "篇": {
+                  "docs": {
+                    "po/first.html": {
+                      "ref": "po/first.html",
+                      "tf": 10
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "使": {
+          "docs": {},
+          "用": {
+            "docs": {},
+            "p": {
+              "docs": {},
+              "o": {
+                "docs": {},
+                "s": {
+                  "docs": {},
+                  "t": {
+                    "docs": {},
+                    "m": {
+                      "docs": {},
+                      "a": {
+                        "docs": {},
+                        "n": {
+                          "docs": {},
+                          "调": {
+                            "docs": {},
+                            "试": {
+                              "docs": {},
+                              "j": {
+                                "docs": {},
+                                "a": {
+                                  "docs": {},
+                                  "v": {
+                                    "docs": {},
+                                    "a": {
+                                      "docs": {
+                                        "po/debugcode.html": {
+                                          "ref": "po/debugcode.html",
+                                          "tf": 0.0136986301369863
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "修": {
+          "docs": {},
+          "改": {
+            "docs": {
+              "po/debugcode.html": {
+                "ref": "po/debugcode.html",
+                "tf": 0.0136986301369863
+              }
+            }
+          }
+        },
+        "先": {
+          "docs": {},
+          "登": {
+            "docs": {},
+            "录": {
+              "docs": {},
+              "u": {
+                "2": {
+                  "0": {
+                    "2": {
+                      "0": {
+                        "docs": {},
+                        "环": {
+                          "docs": {},
+                          "境": {
+                            "docs": {},
+                            "，": {
+                              "docs": {},
+                              "填": {
+                                "docs": {},
+                                "充": {
+                                  "docs": {},
+                                  "测": {
+                                    "docs": {},
+                                    "试": {
+                                      "docs": {},
+                                      "u": {
+                                        "docs": {},
+                                        "r": {
+                                          "docs": {},
+                                          "l": {
+                                            "docs": {},
+                                            "，": {
+                                              "docs": {},
+                                              "在": {
+                                                "docs": {},
+                                                "请": {
+                                                  "docs": {},
+                                                  "求": {
+                                                    "docs": {},
+                                                    "头": {
+                                                      "docs": {
+                                                        "po/debugcode.html": {
+                                                          "ref": "po/debugcode.html",
+                                                          "tf": 0.0136986301369863
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "docs": {}
+                    },
+                    "docs": {}
+                  },
+                  "docs": {}
+                },
+                "docs": {}
+              }
+            }
+          }
+        },
+        "加": {
+          "docs": {},
+          "三": {
+            "docs": {},
+            "个": {
+              "docs": {},
+              "键": {
+                "docs": {},
+                "值": {
+                  "docs": {},
+                  "对": {
+                    "docs": {
+                      "po/debugcode.html": {
+                        "ref": "po/debugcode.html",
+                        "tf": 0.0136986301369863
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "本": {
+            "docs": {},
+            "地": {
+              "docs": {},
+              "c": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "o": {
+                    "docs": {},
+                    "k": {
+                      "docs": {},
+                      "i": {
+                        "docs": {
+                          "po/debugcode.html": {
+                            "ref": "po/debugcode.html",
+                            "tf": 0.0136986301369863
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "发": {
+          "docs": {},
+          "送": {
+            "docs": {},
+            "，": {
+              "docs": {},
+              "查": {
+                "docs": {},
+                "看": {
+                  "docs": {},
+                  "响": {
+                    "docs": {},
+                    "应": {
+                      "docs": {},
+                      "体": {
+                        "docs": {},
+                        "是": {
+                          "docs": {},
+                          "否": {
+                            "docs": {},
+                            "正": {
+                              "docs": {},
+                              "确": {
+                                "docs": {},
+                                "：": {
+                                  "docs": {
+                                    "po/debugcode.html": {
+                                      "ref": "po/debugcode.html",
+                                      "tf": 0.0136986301369863
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "在": {
+          "docs": {},
+          "c": {
+            "docs": {},
+            "h": {
+              "docs": {},
+              "r": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "m": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      "商": {
+                        "docs": {},
+                        "店": {
+                          "docs": {},
+                          "安": {
+                            "docs": {},
+                            "装": {
+                              "docs": {},
+                              "p": {
+                                "docs": {},
+                                "o": {
+                                  "docs": {},
+                                  "s": {
+                                    "docs": {},
+                                    "t": {
+                                      "docs": {},
+                                      "m": {
+                                        "docs": {},
+                                        "a": {
+                                          "docs": {},
+                                          "n": {
+                                            "docs": {
+                                              "po/debugcode.html": {
+                                                "ref": "po/debugcode.html",
+                                                "tf": 0.0136986301369863
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "g": {
+            "docs": {},
+            "i": {
+              "docs": {},
+              "t": {
+                "docs": {},
+                "网": {
+                  "docs": {},
+                  "站": {
+                    "docs": {},
+                    "上": {
+                      "docs": {},
+                      "提": {
+                        "docs": {},
+                        "m": {
+                          "docs": {},
+                          "r": {
+                            "docs": {
+                              "po/first.html": {
+                                "ref": "po/first.html",
+                                "tf": 0.024390243902439025
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "填": {
+          "docs": {},
+          "充": {
+            "docs": {},
+            "请": {
+              "docs": {},
+              "求": {
+                "docs": {},
+                "体": {
+                  "docs": {},
+                  "，": {
+                    "docs": {
+                      "po/debugcode.html": {
+                        "ref": "po/debugcode.html",
+                        "tf": 0.0136986301369863
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "对": {
+          "docs": {},
+          "r": {
+            "docs": {},
+            "e": {
+              "docs": {},
+              "q": {
+                "docs": {},
+                "u": {
+                  "docs": {},
+                  "e": {
+                    "docs": {},
+                    "s": {
+                      "docs": {},
+                      "t": {
+                        "docs": {},
+                        ".": {
+                          "docs": {},
+                          "j": {
+                            "docs": {
+                              "po/debugcode.html": {
+                                "ref": "po/debugcode.html",
+                                "tf": 0.0136986301369863
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "怎": {
+          "docs": {},
+          "么": {
+            "docs": {},
+            "调": {
+              "docs": {},
+              "试": {
+                "docs": {},
+                "代": {
+                  "docs": {},
+                  "码": {
+                    "docs": {
+                      "po/debugcode.html": {
+                        "ref": "po/debugcode.html",
+                        "tf": 0.0136986301369863
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "合": {
+              "docs": {},
+              "代": {
+                "docs": {},
+                "码": {
+                  "docs": {
+                    "po/first.html": {
+                      "ref": "po/first.html",
+                      "tf": 0.024390243902439025
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "替": {
+          "docs": {},
+          "换": {
+            "docs": {},
+            "c": {
+              "docs": {},
+              "o": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "k": {
+                    "docs": {},
+                    "i": {
+                      "docs": {},
+                      "e": {
+                        "docs": {},
+                        "中": {
+                          "docs": {},
+                          "的": {
+                            "docs": {
+                              "po/debugcode.html": {
+                                "ref": "po/debugcode.html",
+                                "tf": 0.0136986301369863
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "本": {
+          "docs": {},
+          "地": {
+            "docs": {},
+            "调": {
+              "docs": {},
+              "试": {
+                "docs": {},
+                "w": {
+                  "docs": {},
+                  "e": {
+                    "docs": {},
+                    "b": {
+                      "docs": {},
+                      "s": {
+                        "docs": {},
+                        "i": {
+                          "docs": {},
+                          "t": {
+                            "docs": {},
+                            "e": {
+                              "docs": {},
+                              "前": {
+                                "docs": {},
+                                "端": {
+                                  "docs": {},
+                                  "r": {
+                                    "docs": {},
+                                    "e": {
+                                      "docs": {},
+                                      "a": {
+                                        "docs": {},
+                                        "c": {
+                                          "docs": {},
+                                          "t": {
+                                            "docs": {
+                                              "po/debugcode.html": {
+                                                "ref": "po/debugcode.html",
+                                                "tf": 0.0136986301369863
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "根": {
+          "docs": {},
+          "目": {
+            "docs": {},
+            "录": {
+              "docs": {},
+              "执": {
+                "docs": {},
+                "行": {
+                  "docs": {
+                    "po/debugcode.html": {
+                      "ref": "po/debugcode.html",
+                      "tf": 0.0136986301369863
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "#": {
+          "docs": {
+            "po/first.html": {
+              "ref": "po/first.html",
+              "tf": 0.0975609756097561
+            }
+          }
+        },
+        "[": {
+          "docs": {},
+          "!": {
+            "docs": {},
+            "w": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "r": {
+                  "docs": {},
+                  "n": {
+                    "docs": {},
+                    "i": {
+                      "docs": {},
+                      "n": {
+                        "docs": {},
+                        "g": {
+                          "docs": {},
+                          "|": {
+                            "docs": {},
+                            "s": {
+                              "docs": {},
+                              "t": {
+                                "docs": {},
+                                "y": {
+                                  "docs": {},
+                                  "l": {
+                                    "docs": {},
+                                    "e": {
+                                      "docs": {},
+                                      ":": {
+                                        "docs": {},
+                                        "f": {
+                                          "docs": {},
+                                          "l": {
+                                            "docs": {},
+                                            "a": {
+                                              "docs": {},
+                                              "t": {
+                                                "docs": {},
+                                                "]": {
+                                                  "docs": {
+                                                    "po/first.html": {
+                                                      "ref": "po/first.html",
+                                                      "tf": 0.024390243902439025
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "o": {
+          "docs": {},
+          "r": {
+            "docs": {},
+            "i": {
+              "docs": {},
+              "g": {
+                "docs": {},
+                "i": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "po/first.html": {
+                        "ref": "po/first.html",
+                        "tf": 0.024390243902439025
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "克": {
+          "docs": {},
+          "隆": {
+            "docs": {},
+            "代": {
+              "docs": {},
+              "码": {
+                "docs": {},
+                "到": {
+                  "docs": {},
+                  "本": {
+                    "docs": {},
+                    "地": {
+                      "docs": {
+                        "po/first.html": {
+                          "ref": "po/first.html",
+                          "tf": 0.024390243902439025
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "基": {
+          "docs": {},
+          "于": {
+            "docs": {},
+            "主": {
+              "docs": {},
+              "干": {
+                "docs": {},
+                "拉": {
+                  "docs": {},
+                  "个": {
+                    "docs": {},
+                    "人": {
+                      "docs": {},
+                      "开": {
+                        "docs": {},
+                        "发": {
+                          "docs": {},
+                          "分": {
+                            "docs": {},
+                            "支": {
+                              "docs": {
+                                "po/first.html": {
+                                  "ref": "po/first.html",
+                                  "tf": 0.024390243902439025
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "开": {
+          "docs": {},
+          "发": {
+            "docs": {},
+            "代": {
+              "docs": {},
+              "码": {
+                "docs": {},
+                "，": {
+                  "docs": {},
+                  "提": {
+                    "docs": {},
+                    "交": {
+                      "docs": {},
+                      "到": {
+                        "docs": {},
+                        "本": {
+                          "docs": {},
+                          "地": {
+                            "docs": {},
+                            "，": {
+                              "docs": {},
+                              "推": {
+                                "docs": {},
+                                "送": {
+                                  "docs": {},
+                                  "到": {
+                                    "docs": {},
+                                    "远": {
+                                      "docs": {},
+                                      "程": {
+                                        "docs": {},
+                                        "仓": {
+                                          "docs": {},
+                                          "库": {
+                                            "docs": {
+                                              "po/first.html": {
+                                                "ref": "po/first.html",
+                                                "tf": 0.024390243902439025
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "步": {
+          "docs": {},
+          "骤": {
+            "1": {
+              "docs": {
+                "po/first.html": {
+                  "ref": "po/first.html",
+                  "tf": 0.024390243902439025
+                }
+              }
+            },
+            "2": {
+              "docs": {
+                "po/first.html": {
+                  "ref": "po/first.html",
+                  "tf": 0.024390243902439025
+                }
+              }
+            },
+            "3": {
+              "docs": {
+                "po/first.html": {
+                  "ref": "po/first.html",
+                  "tf": 0.024390243902439025
+                }
+              }
+            },
+            "4": {
+              "docs": {
+                "po/first.html": {
+                  "ref": "po/first.html",
+                  "tf": 0.024390243902439025
+                }
+              }
+            },
+            "5": {
+              "docs": {
+                "po/first.html": {
+                  "ref": "po/first.html",
+                  "tf": 0.024390243902439025
+                }
+              }
+            },
+            "docs": {}
+          }
+        },
+        "这": {
+          "docs": {},
+          "是": {
+            "docs": {},
+            "视": {
+              "docs": {},
+              "频": {
+                "docs": {},
+                "h": {
+                  "docs": {},
+                  "t": {
+                    "docs": {},
+                    "t": {
+                      "docs": {},
+                      "p": {
+                        "docs": {},
+                        "s": {
+                          "docs": {},
+                          ":": {
+                            "docs": {},
+                            "/": {
+                              "docs": {},
+                              "/": {
+                                "docs": {},
+                                "w": {
+                                  "docs": {},
+                                  "w": {
+                                    "docs": {},
+                                    "w": {
+                                      "docs": {},
+                                      ".": {
+                                        "docs": {},
+                                        "b": {
+                                          "docs": {},
+                                          "a": {
+                                            "docs": {},
+                                            "i": {
+                                              "docs": {},
+                                              "d": {
+                                                "docs": {},
+                                                "u": {
+                                                  "docs": {},
+                                                  ".": {
+                                                    "docs": {},
+                                                    "c": {
+                                                      "docs": {},
+                                                      "o": {
+                                                        "docs": {},
+                                                        "m": {
+                                                          "docs": {
+                                                            "po/first.html": {
+                                                              "ref": "po/first.html",
+                                                              "tf": 0.024390243902439025
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "length": 117
+    },
+    "corpusTokens": [
+      "\"img\"",
+      "#",
+      "&&",
+      "'bspsession=xxxxx';",
+      "'locale=en",
+      "'locallanguage=zh_cn;';",
+      "'roarand=xxxxxx;';",
+      "'user_time_a_lang=';",
+      ".",
+      "./doc",
+      ":",
+      "=",
+      "===",
+      "[!warning|style:flat]",
+      "application/json",
+      "b",
+      "bold",
+      "bspsession",
+      "build",
+      "cd",
+      "checkout",
+      "clean",
+      "clien/coohjcphdfgbiolnekdpbcijmhambjff",
+      "clone",
+      "code",
+      "committer合入",
+      "console.log(\"plugin",
+      "content",
+      "cooki",
+      "develop_工号",
+      "develop自动合主干有时会失效，服务owner每次出版本前一定要对比两个分支无差异。",
+      "dmaven.test.skip=tru",
+      "dmaven.test.skip=true，下载好前端的依赖node_modul",
+      "document.cooki",
+      "e.target.tagnam",
+      "function(e){",
+      "git",
+      "git@github.com:15129230785/gitbook.git",
+      "gitbook",
+      "github",
+      "https://chrome.google.com/webstore/detail/tab",
+      "instal",
+      "ital",
+      "list",
+      "mvn",
+      "npm",
+      "number",
+      "origin",
+      "package.json",
+      "page",
+      "popup....\");document.onclick",
+      "postman",
+      "push",
+      "rest",
+      "rest接口",
+      "roarand",
+      "run",
+      "start",
+      "text",
+      "type",
+      "us;';",
+      "welcom",
+      "window.open(e.target.src,e.target.src)}img{cursor:pointer}",
+      "一、",
+      "下面以软件管理服务为例https://www.baidu.com",
+      "下面的例子是性能服务pmwebsit",
+      "个人笔记指南",
+      "中的proxy为环境ip",
+      "二、",
+      "从环境的某个请求上拷贝过来",
+      "从环境的某个请求上拷贝过来，不带locale=",
+      "代码提交篇",
+      "代码调试篇",
+      "使用postman调试java",
+      "修改",
+      "先登录u2020环境，填充测试url，在请求头",
+      "克隆代码到本地",
+      "加三个键值对",
+      "加本地cooki",
+      "发送，查看响应体是否正确：",
+      "在chrome商店安装postman",
+      "在git网站上提mr",
+      "基于主干拉个人开发分支",
+      "填充请求体，",
+      "对request.j",
+      "开发代码，提交到本地，推送到远程仓库",
+      "怎么合代码",
+      "怎么调试代码",
+      "我的博客",
+      "替换cookie中的",
+      "本地调试website前端react",
+      "根目录执行",
+      "步骤1",
+      "步骤2",
+      "步骤3",
+      "步骤4",
+      "步骤5",
+      "这是视频https://www.baidu.com"
+    ],
+    "pipeline": [
+      "stopWordFilter",
+      "stemmer"
+    ]
+  },
+  "store": {
+    "./": {
+      "url": "./",
+      "title": "个人笔记指南",
+      "keywords": "",
+      "body": "Welcome to GitHub Pages\n我的博客\n\ngitbook build . ./docs\nList\n\nNumbered\n\nList\n\nBold and Italic and Code text\n\nconsole.log(\"plugin-popup....\");document.onclick = function(e){ e.target.tagName === \"IMG\" && window.open(e.target.src,e.target.src)}img{cursor:pointer}"
+    },
+    "po/debugcode.html": {
+      "url": "po/debugcode.html",
+      "title": "代码调试篇",
+      "keywords": "",
+      "body": "怎么调试代码\n一、 使用postman调试java REST接口\n\n在chrome商店安装postman  https://chrome.google.com/webstore/detail/tabbed-postman-rest-clien/coohjcphdfgbiolnekdpbcijmhambjff\n\n先登录U2020环境，填充测试URL，在请求头 加三个键值对  \nCookie   :   从环境的某个请求上拷贝过来，不带locale=\nContent-Type  :  application/json\nroarand  :   从环境的某个请求上拷贝过来\n\n\n\n填充请求体， 发送，查看响应体是否正确：\n\n\n二、 本地调试Website前端React\n\n  下面的例子是性能服务PMWebsite\n\n\n根目录执行 mvn clean install -Dmaven.test.skip=true，下载好前端的依赖node_modules\nmvn clean install -Dmaven.test.skip=true\n\n修改 package.json 中的proxy为环境ip \n\n\n\n对request.js 加本地cookie\ndocument.cookie = 'localLanguage=zh_CN;';\ndocument.cookie = 'locale=en-us;';\ndocument.cookie = 'bspsession=xxxxx';\ndocument.cookie = 'user_time_a_lang=';\ndocument.cookie = 'roarand=xxxxxx;';\n\n\n替换cookie中的 bspsession\n\nnpm run start\nnpm run start\n\n\n\n \n\n\nconsole.log(\"plugin-popup....\");document.onclick = function(e){ e.target.tagName === \"IMG\" && window.open(e.target.src,e.target.src)}img{cursor:pointer}"
+    },
+    "po/first.html": {
+      "url": "po/first.html",
+      "title": "代码提交篇",
+      "keywords": "",
+      "body": "怎么合代码\n 这是视频https://www.baidu.com\n\n\n  下面以软件管理服务为例https://www.baidu.com\n\n步骤1 克隆代码到本地\n# git clone git@github.com:15129230785/gitbook.git\n# cd gitbook\n步骤2 基于主干拉个人开发分支\n# git checkout -b develop_工号\n步骤3 开发代码，提交到本地，推送到远程仓库\n# git push origin develop_工号\n步骤4 在git网站上提MR\n\n步骤5 Committer合入\n\n[!WARNING|style:flat]\ndevelop自动合主干有时会失效，服务owner每次出版本前一定要对比两个分支无差异。\n\n \n\n\nconsole.log(\"plugin-popup....\");document.onclick = function(e){ e.target.tagName === \"IMG\" && window.open(e.target.src,e.target.src)}img{cursor:pointer}"
+    }
+  }
+}
