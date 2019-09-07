@@ -31,7 +31,7 @@
         "hide-element": {
             "elements": [".gitbook-link"]
         },
-		"favicon": "./img/favicon.ico",
+		"favicon": "./assets/images/favicon.ico",
 		"insert-logo": {
 			"url": "../assets/images/logo-in-header.png",
 			"style": "background: none; max-height: 30px; min-height: 30px"

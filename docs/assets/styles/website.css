@@ -51,16 +51,14 @@ input[type=checkbox] {
   margin-left: -2em;
 }
 
-.gitbook-link {
-    display: none !important;
+.gitbook-link {    
+  display: none !important;
 }
-
-.page-inner {
-    max-width: 1200px;
-    padding: 2px 2px 2px 2px;
+.page-inner {   
+  max-width: 1200px;    
+  padding: 2px 2px 2px 2px;
 }
-
-.book .book-summary .book-logo {
-    display: block !important;
+.book .book-summary .book-logo {     
+  display: block !important;
 }
 
