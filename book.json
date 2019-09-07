@@ -33,7 +33,7 @@
         },
 		"favicon": "./img/favicon.ico",
 		"insert-logo": {
-			"url": "../img/logo-in-header.png",
+			"url": "../assets/images/logo-in-header.png",
 			"style": "background: none; max-height: 30px; min-height: 30px"
 		},
 	  "theme-default": {
