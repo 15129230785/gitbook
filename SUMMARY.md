@@ -1,5 +1,7 @@
 # Summary
 
+## study
+
 * [个人笔记指南](README.md)
 * [基本安装](howtouse/README.md)
    * [Node.js安装](howtouse/nodejsinstall.md)
@@ -14,6 +16,8 @@
 * [发布](publish/README.md)
    * [发布到Github Pages](publish/gitpages.md)
    * [发布到公司文档服务器](publish/companyserver.md)
+
+## code
 
 * [项目生命周期](po.md)
   
