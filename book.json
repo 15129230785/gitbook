@@ -34,7 +34,7 @@
 		"favicon": "./assets/images/favicon.ico",
 		"insert-logo": {
 			"url": "./assets/images/logo-in-header.png",
-			"style": "background: none; max-height: 70px; min-height: 70px"
+			"style": "background: none; max-height: 30px; min-height: 30px"
 		},
 	  "theme-default": {
 		  "showLevel": true
